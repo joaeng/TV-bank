@@ -27,7 +27,7 @@ if (temp >= 25)
 }
 else if(temp <= 21)
 {
-  Serial.println("Temperatur ok - Av");
+  Serial.println("Temperatur ok - Fläktar Av");
   digitalWrite(fan, HIGH);
   delay(120000);
   }
