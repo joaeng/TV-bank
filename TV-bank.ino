@@ -2,7 +2,7 @@
 
 dht DHT;
 
-#define DHT11_PIN 3
+#define DHT21_PIN 3
 int fan = 2;
 
 
@@ -14,7 +14,7 @@ void setup(){
 
 void loop()
 {
-  int chk = DHT.read11(DHT11_PIN);
+  int chk = DHT.read21(DHT21_PIN);
   int temp=DHT.temperature;
   Serial.print("Temperature = ");
   Serial.println(DHT.temperature);
